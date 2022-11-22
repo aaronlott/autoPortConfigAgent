@@ -2,10 +2,11 @@
   "default": {
     "states": {
       "linkdown": [
-        "description default linkdown"
+        "description not in use"
       ],
       "linkup": [
-        "description default linkup"
+        "description default linkup",
+        "profile DESK"
       ]
     }
   },
