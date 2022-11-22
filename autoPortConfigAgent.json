@@ -18,19 +18,14 @@
         ],
         "lldp": {
           "caps": [
-            "isOther",
-            "isRepeater",
             "isBridge",
-            "isAP",
-            "isRouter",
-            "isTelephone",
-            "isDocsis",
-            "isStation"
+            "isTelephone"
           ]
         },
         "states": {
           "linkup": [
-            "description specificOrLLDP"
+            "description specificOrLLDP",
+            "profile PHONE"
           ]
         }
       }
