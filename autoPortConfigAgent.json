@@ -2,37 +2,84 @@
   "default": {
     "states": {
       "linkdown": [
-        "description default"
+        "description default linkdown"
+      ],
+      "linkup": [
+        "description default linkup"
       ]
     }
   },
   "configs": [
     {
       "config": {
-        "name": "config1",
+        "name": "either a specific mac or a set of lldp options",
         "macs": [
           "68d7.9a3c.2b3f"
         ],
-        "lldpCaps": [
-          "isOther",
-          "isRepeater",
-          "isBridge",
-          "isAP",
-          "isRouter",
-          "isTelephone",
-          "isDocsis",
-          "isStation"
-        ],
+        "lldp": {
+          "caps": [
+            "isOther",
+            "isRepeater",
+            "isBridge",
+            "isAP",
+            "isRouter",
+            "isTelephone",
+            "isDocsis",
+            "isStation"
+          ]
+        },
         "states": {
           "linkup": [
-            "description config1"
+            "description specificOrLLDP"
           ]
         }
       }
     },
     {
       "config": {
-        "name": "config2",
+        "name": "a set of lldp options and a specific description substring",
+        "lldp": {
+          "caps": [
+            "isBridge",
+            "isAP",
+            "isRouter"
+          ],
+          "descriptions": [
+            "AP Manufacturer 1"
+          ]
+        },
+        "states": {
+          "linkup": [
+            "description descriptionOrLLDP"
+          ]
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "a set of lldp options and a specific mac or oui",
+        "lldp": {
+          "caps": [
+            "isBridge",
+            "isAP",
+            "isRouter"
+          ],
+          "ouis": [
+            "7845.58",
+            "68d7.9a"
+          ]
+        },
+        "states": {
+          "linkup": [
+            "description specificOrLLDP",
+            "profile AP"
+          ]
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "either a specific mac or oui",
         "macs": [
           "aaaa.aaaa.aaaa"
         ],
@@ -41,7 +88,8 @@
         ],
         "states": {
           "linkup": [
-            "description config2"
+            "description sepecific mac or oui",
+            "profile AP"
           ]
         }
       }
