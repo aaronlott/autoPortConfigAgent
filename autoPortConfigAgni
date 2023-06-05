@@ -20,15 +20,8 @@
             "isRouter"
           ],
           "macs": [
-            "74ac.b950.fe88",
-            "d021.f962.e8df",
-            "d021.f962.dfcf",
-            "d021.f962.9dfb",
-            "d021.f962.9d8f",
-            "d021.f962.9d6b",
-            "d021.f962.f423",
-            "d021.f962.f193",
-            "d021.f962.e883"
+            "3086.2dc1.283f",
+            "3086.2d8e.debf"
           ]
         },
         "states": {
@@ -47,6 +40,19 @@
         "states": {
           "linkup": [
             "profile PRINTER"
+          ]
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "either a specific mac or oui",
+        "macs": [
+          "6416.7f1c.09a5"
+        ],
+        "states": {
+          "linkup": [
+            "profile PHONE"
           ]
         }
       }
