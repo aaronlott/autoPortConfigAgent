@@ -1,0 +1,55 @@
+{
+  "default": {
+    "states": {
+      "linkdown": [
+        "description available"
+      ],
+      "linkup": [
+        "profile DESK"
+      ]
+    }
+  },
+  "configs": [
+    {
+      "config": {
+        "name": "a set of lldp options and a specific mac or oui",
+        "lldp": {
+          "caps": [
+            "isBridge",
+            "isAP",
+            "isRouter"
+          ],
+          "macs": [
+            "74ac.b950.fe88",
+            "d021.f962.e8df",
+            "d021.f962.dfcf",
+            "d021.f962.9dfb",
+            "d021.f962.9d8f",
+            "d021.f962.9d6b",
+            "d021.f962.f423",
+            "d021.f962.f193",
+            "d021.f962.e883"
+          ]
+        },
+        "states": {
+          "linkup": [
+            "profile AP"
+          ]
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "either a specific mac or oui",
+        "macs": [
+          "0026.739d.90cc"
+        ],
+        "states": {
+          "linkup": [
+            "profile PRINTER"
+          ]
+        }
+      }
+    },
+  ]
+}
