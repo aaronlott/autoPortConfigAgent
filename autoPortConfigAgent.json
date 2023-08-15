@@ -1,4 +1,4 @@
-   {
+{
   "default": {
     "states": {
       "linkdown": [
@@ -14,11 +14,11 @@
       "config": {
         "name": "either a specific mac or oui",
         "macs": [
-          "0026.739d.90cc"
+          "3086.2d8e.debf"
         ],
         "states": {
           "linkup": [
-            "profile PRINTER"
+            "profile AP"
           ]
         }
       }
