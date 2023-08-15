@@ -1,11 +1,10 @@
-{
+   {
   "default": {
     "states": {
       "linkdown": [
-        "description not in use"
+        "description available"
       ],
       "linkup": [
-        "description default linkup",
         "profile DESK"
       ]
     }
@@ -13,82 +12,16 @@
   "configs": [
     {
       "config": {
-        "name": "either a specific mac or a set of lldp options",
-        "macs": [
-          "68d7.9a3c.2b3f"
-        ],
-        "lldp": {
-          "caps": [
-            "isBridge",
-            "isTelephone"
-          ]
-        },
-        "states": {
-          "linkup": [
-            "description specificOrLLDP",
-            "profile PHONE"
-          ]
-        }
-      }
-    },
-    {
-      "config": {
-        "name": "a set of lldp options and a specific description substring",
-        "lldp": {
-          "caps": [
-            "isBridge",
-            "isAP",
-            "isRouter"
-          ],
-          "descriptions": [
-            "AP Manufacturer 1"
-          ]
-        },
-        "states": {
-          "linkup": [
-            "description descriptionOrLLDP"
-          ]
-        }
-      }
-    },
-    {
-      "config": {
-        "name": "a set of lldp options and a specific mac or oui",
-        "lldp": {
-          "caps": [
-            "isBridge",
-            "isAP",
-            "isRouter"
-          ],
-          "ouis": [
-            "7845.58",
-            "68d7.9a"
-          ]
-        },
-        "states": {
-          "linkup": [
-            "description specificOrLLDP",
-            "profile AP"
-          ]
-        }
-      }
-    },
-    {
-      "config": {
         "name": "either a specific mac or oui",
         "macs": [
-          "aaaa.aaaa.aaaa"
-        ],
-        "ouis": [
-          "7845.58"
+          "0026.739d.90cc"
         ],
         "states": {
           "linkup": [
-            "description sepecific mac or oui",
-            "profile AP"
+            "profile PRINTER"
           ]
         }
       }
-    }
+    },
   ]
 }
