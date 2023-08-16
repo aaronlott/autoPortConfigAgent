@@ -1,0 +1,115 @@
+{
+  "default": {
+    "states": {
+      "linkdown": [
+        "description default linkdown"
+      ],
+      "linkup": [
+        "description default linkup"
+      ]
+    }
+  },
+  "configs": [
+    {
+      "config": {
+        "name": "either a specific mac or a set of lldp options",
+        "macs": [
+          "30:86:2d:8e:de:bf"
+        ],
+        "lldp": {
+          "caps": [
+            "isOther",
+            "isRepeater",
+            "isBridge",
+            "isAP",
+            "isRouter",
+            "isTelephone",
+            "isDocsis",
+            "isStation"
+          ]
+        },
+        "states": {
+          "linkup": [
+            "profile AP"
+          ]
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "a set of lldp options and a specific description substring",
+        "lldp": {
+          "caps": [
+            "isBridge",
+            "isAP",
+            "isRouter"
+          ],
+          "descriptions": [
+            "AP Manufacturer 1"
+          ]
+        },
+        "states": {
+          "linkup": [
+            "description descriptionOrLLDP"
+          ]
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "a set of lldp capabilities and a specific system name substring",
+        "lldp": {
+          "caps": [
+            "isBridge",
+            "isAP",
+            "isRouter"
+          ],
+          "names": [
+            "xyz123"
+          ]
+        },
+        "states": {
+          "linkup": [
+            "description LLDPnameAndCapabilities"
+          ]
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "a set of lldp options and a specific mac or oui",
+        "lldp": {
+          "caps": [
+            "isBridge",
+            "isAP",
+            "isRouter"
+          ],
+          "macs": [
+            "aabb.ccdd.eeff"
+          ]
+        },
+        "states": {
+          "linkup": [
+            "description specificOrLLDP"
+          ]
+        }
+      }
+    },
+    {
+      "config": {
+        "name": "either a specific mac or oui",
+        "macs": [
+          "accc.8e01.edfc"
+        ],
+        "ouis": [
+          "accc.8e"
+        ],
+        "states": {
+          "linkup": [
+            "profile CAMERA"
+          ]
+        }
+      }
+    }
+  ]
+}
