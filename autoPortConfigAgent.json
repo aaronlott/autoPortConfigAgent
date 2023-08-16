@@ -1,12 +1,8 @@
 {
     "default": {
       "states": {
-        "linkdown": [
-          "description linkdown"
-        ],
-        "linkup": [
-          "profile DESK"
-        ]
+        "linkdown": ["description available"],
+        "linkup": ["profile DESK"]
       }
     },
     "configs": [
