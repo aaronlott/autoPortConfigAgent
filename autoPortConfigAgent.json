@@ -1,42 +1,40 @@
 {
-  "default": {
-    "states": {
-      "linkdown": [
-        "description available"
-      ],
-      "linkup": [
-        "profile DESK"
-      ]
-    }
-  },
-  "configs": [
-    {
-      "config": {
-        "name": "either a specific mac or oui",
-        "macs": [
-          "3086.2d8e.debf"
+    "default": {
+      "states": {
+        "linkdown": [
+          "description available"
         ],
-        "states": {
-          "linkup": [
-            "profile AP"
-          ]
-        }
+        "linkup": [
+          "profile DESK"
+        ]
       }
     },
-  ]
-  "configs": [
-    {
-      "config": {
-        "name": "either a specific mac or oui",
-        "macs": [
-          "accc.8e01.edfc"
-        ],
-        "states": {
-          "linkup": [
-            "profile CAMERA"
-          ]
+    "configs": [
+      {
+        "config": {
+          "name": "either a specific mac or oui",
+          "macs": [
+            "30:86:2d:8e:de:bf"
+          ],
+          "states": {
+            "linkup": [
+              "profile AP"
+            ]
+          }
+        }
+      },
+      {
+        "config": {
+          "name": "either a specific mac or oui",
+          "macs": [
+            "ac:cc:8e:01:ed:fc"
+          ],
+          "states": {
+            "linkup": [
+              "profile CAMERA"
+            ]
+          }
         }
       }
-    }
-  ]
-}
+    ]
+  }
