@@ -1,41 +1,29 @@
 {
     "default": {
       "states": {
-        "linkdown": [
-          "description available"
-        ],
-        "linkup": [
-          "profile DESK"
-        ]
+        "linkdown": ["description available"],
+        "linkup": ["profile DESK"]
       }
     },
     "configs": [
       {
         "config": {
-          "name": "a set of lldp options and a specific mac or oui",
-            "lldp": {
-              "description": "ARISTA"
-            },
-              "macs": [
-                "3086.2d8e.debf"
-              ],
-              "ouis": [
-                "3086.2d"
-              ]
-            }
-          },
-        {
-        "config": {
           "name": "either a specific mac or oui",
-            "macs": [
-              "ac:cc:8e:01:ed:fc"
-            ],
-            "states": {
-              "linkup": [
-                "profile CAMERA"
-               ]
-             }
+          "macs": ["ac:cc:8e:01:ed:fc"],
+          "states": {
+            "linkup": ["profile CAMERA"]
           }
-       }
+        }
+      },
+      {
+        "config": {
+          "name": "a set of lldp options and a specific mac or oui",
+          "lldp": {
+            "description": "ARISTA"
+          },
+          "macs": ["3086.2d8e.debf"],
+          "ouis": ["3086.2d"]
+        }
+      }
     ]
-}
+  }
