@@ -18,7 +18,7 @@
       {
         "config": {
           "name": "a set of lldp options and a specific mac or oui",
-          "ouis": ["3086.2d"],
+          "macs": ["30:86:2d:8e:de:bf"],
           "states": {
             "linkup": ["profile AP"]
         }
