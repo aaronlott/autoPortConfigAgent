@@ -8,13 +8,7 @@
     "configs": [
       {
         "config": {
-          "name": "a set of lldp options and a specific mac or oui",
-          "lldp": {
-            "caps": [
-              "isBridge",
-              "isAP",
-              "isRouter"
-            ],
+          "name": "a set of lldp options and a specific mac or oui"
             "macs": [
               "3086.2d8e.debf",
               "accc.8e01.edfc"
