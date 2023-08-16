@@ -21,7 +21,6 @@
           "lldp": {
             "description": "ARISTA"
           },
-          "macs": ["3086.2d8e.debf"],
           "ouis": ["3086.2d"]
         }
       }
