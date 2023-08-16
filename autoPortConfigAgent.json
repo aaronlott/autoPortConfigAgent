@@ -10,8 +10,7 @@
         "config": {
           "name": "a set of lldp options and a specific mac or oui",
           "macs": [
-              "3086.2d8e.debf",
-              "accc.8e01.edfc"
+              "3086.2d8e.debf"
             ]
           },
           "states": {
@@ -20,7 +19,7 @@
             ]
           }
         },
-      {
+        {
         "config": {
           "name": "either a specific mac or oui",
           "macs": [
