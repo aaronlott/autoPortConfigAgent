@@ -12,29 +12,31 @@
     "configs": [
       {
         "config": {
-          "name": "either a specific mac or oui",
-          "macs": [
-            "30:86:2d:8e:de:bf"
-          ],
-          "states": {
-            "linkup": [
-              "profile AP"
-            ]
+          "name": "a set of lldp options and a specific mac or oui",
+            "lldp": {
+              "caps": [
+                "isBridge",
+                "isAP",
+                "isRouter"
+              ],
+              "macs": [
+                "30:86:2d:8e:de:bf"
+              ]
+            }
           }
-        }
-      },
-      {
+        },
+        {
         "config": {
           "name": "either a specific mac or oui",
-          "macs": [
-            "ac:cc:8e:01:ed:fc"
-          ],
-          "states": {
-            "linkup": [
-              "profile CAMERA"
-            ]
+            "macs": [
+              "ac:cc:8e:01:ed:fc"
+            ],
+            "states": {
+              "linkup": [
+                "profile CAMERA"
+               ]
+             }
           }
-        }
-      }
+       }
     ]
-  }
+}
