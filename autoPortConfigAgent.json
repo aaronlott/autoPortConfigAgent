@@ -24,4 +24,19 @@
       }
     },
   ]
+  "configs": [
+    {
+      "config": {
+        "name": "either a specific mac or oui",
+        "macs": [
+          "accc.8e01.edfc"
+        ],
+        "states": {
+          "linkup": [
+            "profile CAMERA"
+          ]
+        }
+      }
+    }
+  ]
 }
