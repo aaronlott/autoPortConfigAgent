@@ -2,10 +2,10 @@
   "default": {
     "states": {
       "linkdown": [
-        "description default linkdown"
+        "description linkdown"
       ],
       "linkup": [
-        "description default linkup"
+        "profile DESK"
       ]
     }
   },
@@ -85,7 +85,7 @@
             "isRouter"
           ],
           "macs": [
-            "aabb.ccdd.eeff"
+            "30:86:2d:8e:de:bf"
           ]
         },
         "states": {
