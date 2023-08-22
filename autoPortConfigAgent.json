@@ -9,30 +9,19 @@
       {
         "config": {
           "name": "a set of lldp options and a specific mac or oui",
-          "macs": [
-              "3086.2d8e.debf"
-            ]
-          },
+          "macs": ["3086.2d8e.debf"],
           "states": {
-            "linkup": [
-              "profile AP"
-            ]
+            "linkup": ["profile AP"]
           }
+        }
         },
         {
         "config": {
           "name": "either a specific mac or oui",
-          "macs": [
-            "accc.8e01.edfc"
-          ],
-          "ouis": [
-            "accc.8e",
-            "3086.2d"
-          ],
+          "macs": ["accc.8e01.edfc"],
+          "ouis": ["accc.8e"],
           "states": {
-            "linkup": [
-              "profile CAMERA"
-            ]
+            "linkup": ["profile CAMERA"]
           }
         }
       }
