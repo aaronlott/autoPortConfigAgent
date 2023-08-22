@@ -9,11 +9,11 @@
       {
         "config": {
           "name": "a set of lldp options and a specific mac or oui",
-          "macs": ["3086.2d8e.debf"],
+          "ouis": ["3086.2d"],
           "states": {
             "linkup": ["profile AP"]
+            }
           }
-        }
         },
         {
         "config": {
