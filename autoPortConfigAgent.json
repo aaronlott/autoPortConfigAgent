@@ -18,10 +18,19 @@
         {
         "config": {
           "name": "either a specific mac or oui",
-          "macs": ["accc.8e01.edfc"],
           "ouis": ["accc.8e"],
           "states": {
             "linkup": ["profile CAMERA"]
+          }
+        }
+        },
+        {
+        "config": {
+          "name": "either a specific mac or oui",
+          "macs": ["accc.8e01.edfc"],
+          "ouis": ["accc.8e"],
+          "states": {
+            "linkup": ["profile PRINTER"]
           }
         }
       }
