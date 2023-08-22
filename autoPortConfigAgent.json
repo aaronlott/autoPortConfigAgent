@@ -8,8 +8,10 @@
     "configs": [
       {
         "config": {
-          "name": "a set of lldp options and a specific mac or oui",
-          "ouis": ["3086.2d"],
+          "name": "access point ouis",
+          "ouis": [
+              "3086.2d"
+          ],
           "states": {
             "linkup": ["profile AP"]
             }
@@ -17,8 +19,13 @@
         },
         {
         "config": {
-          "name": "either a specific mac or oui",
-          "ouis": ["accc.8e"],
+          "name": "camera ouis",
+          "ouis": [
+              "accc.8e",
+              "ac9b.0a",
+              "000f.e5",
+              "0040.8c"
+          ],
           "states": {
             "linkup": ["profile CAMERA"]
           }
@@ -26,9 +33,18 @@
         },
         {
         "config": {
-          "name": "either a specific mac or oui",
-          "macs": ["accc.8e01.edfc"],
-          "ouis": ["accc.8e"],
+          "name": "printer ouis",
+          "ouis": [
+              "5838.79",
+              "0026.73",
+              "00bb.c1",
+              "f4a9.97",
+              "a08c.fd",
+              "9c93.4e",
+              "0000.85",
+              "74bf.c0",
+              "f481.39"
+          ],
           "states": {
             "linkup": ["profile PRINTER"]
           }
