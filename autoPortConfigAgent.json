@@ -25,7 +25,8 @@
               "000f.e5",
               "accc.8e",
               "0040.8c",
-              "104f.a8"
+              "104f.a8",
+              "001c.27"
           ],
           "states": {
             "linkup": ["profile CAMERA"]
