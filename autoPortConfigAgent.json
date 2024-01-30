@@ -10,7 +10,9 @@
         "config": {
           "name": "access point ouis",
           "ouis": [
-              "3086.2d"
+              "3086.2d",
+              "74ac.b9",
+              "7845.58"
           ],
           "states": {
             "linkup": ["profile AP"]
@@ -67,7 +69,9 @@
               "9457.a5",
               "dc4a.3e",
               "2426.42",
-              "000d.ac"
+              "000d.ac",
+              "0020.6b",
+              "0011.4b"
               
           ],
           "states": {
