@@ -21,6 +21,17 @@
         },
         {
         "config": {
+          "name": "imaging ouis",
+          "ouis": [
+              "2cdd.e9"
+          ],
+          "states": {
+            "linkup": ["profile IMAGING"]
+            }
+          }
+        },
+        {
+        "config": {
           "name": "phone ouis",
           "ouis": [
               "4825.67",
