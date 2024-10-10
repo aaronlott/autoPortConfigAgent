@@ -8,39 +8,12 @@
     "configs": [
       {
         "config": {
-          "name": "access point ouis",
-          "ouis": [
-              "3086.2d",
-              "74ac.b9",
-              "7483.c2",
-              "7845.58"
-          ],
-          "states": {
-            "linkup": ["profile AP"]
-            }
-          }
-        },
-        {
-        "config": {
           "name": "imaging ouis",
           "ouis": [
               "2cdd.e9"
           ],
           "states": {
             "linkup": ["profile IMAGING"]
-            }
-          }
-        },
-        {
-        "config": {
-          "name": "phone ouis",
-          "ouis": [
-              "4825.67",
-              "6416.7f",
-              "0004.f2"
-          ],
-          "states": {
-            "linkup": ["profile PHONE"]
             }
           }
         },
@@ -61,36 +34,6 @@
             "linkup": ["profile CAMERA"]
             }
           }
-        },
-        {
-        "config": {
-          "name": "printer ouis",
-          "ouis": [
-              "5838.79",
-              "0026.73",
-              "00bb.c1",
-              "f4a9.97",
-              "a08c.fd",
-              "9c93.4e",
-              "0000.85",
-              "74bf.c0",
-              "f481.39",
-              "f430.b9",
-              "5820.b1",
-              "fc3f.db",
-              "9457.a5",
-              "dc4a.3e",
-              "2426.42",
-              "000d.ac",
-              "0020.6b",
-              "0011.4b",
-              "b0b1.13"
-              
-          ],
-          "states": {
-            "linkup": ["profile PRINTER"]
-          }
         }
-      }
     ]
   }
