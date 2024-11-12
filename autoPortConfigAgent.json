@@ -16,24 +16,6 @@
             "linkup": ["profile IMAGING"]
             }
           }
-        },
-        {
-        "config": {
-          "name": "camera ouis",
-          "ouis": [
-              "ac9b.0a",
-              "000f.e5",
-              "accc.8e",
-              "0040.8c",
-              "104f.a8",
-              "001c.27",
-              "0018.85",
-              "0017.FC"
-          ],
-          "states": {
-            "linkup": ["profile CAMERA"]
-            }
-          }
         }
     ]
   }
