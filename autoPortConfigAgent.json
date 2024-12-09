@@ -1,12 +1,21 @@
 {
-  "default": {
-    "states": {
-      "linkdown": [
-        "description available"
-      ],
-      "linkup": [
-        "profile DESK"
-      ]
-    }
-  },
-}
+    "default": {
+      "states": {
+        "linkdown": ["description available"],
+        "linkup": ["profile DESK"]
+      }
+    },
+    "configs": [
+      {
+        "config": {
+          "name": "imaging ouis",
+          "ouis": [
+              "2cdd.e9"
+          ],
+          "states": {
+            "linkup": ["profile IMAGING"]
+            }
+          }
+        }
+    ]
+  }
